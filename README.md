@@ -14,7 +14,9 @@ Change to something like **127.0.0.1:5000**
 ## Run the server
 Basic options for Gunicorn:
 -w *number of workers (Default sync worker type)*
+
 -t *worker timeout*
+
 -b *address and port to bind to*
 
 To run the automated generation function multiple workers are required to avoid blocking.
