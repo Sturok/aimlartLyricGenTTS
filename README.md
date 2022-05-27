@@ -22,7 +22,7 @@ To run the automated generation function multiple workers are required to avoid 
 **gunicorn main:app -w 4 -t 480 -b 0.0.0.0:5000**
 The webapp is coded to send its XHR requests to port 5000
 
-# Start the cleanup app to remove the output files
+### Start the cleanup app to remove the output files
 **gunicorn cleanup:app -b 0.0.0.0:8000**
 The port of the cleanup app just needs to be different to 5000
 
