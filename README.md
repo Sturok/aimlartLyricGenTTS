@@ -1,6 +1,8 @@
 # AIML-art Project "Voice of Laurie Anderson"
 Web app to generate text and audio in the style and voice of Laurie Anderson and display/play this to the user.
 
+![lyricgenTTS Homepage](https://github.com/Sturok/aimlartLyricGenTTS/blob/main/images/LyricgenTTS.png)
+
 ## Installation
 # This project is setup to run the Gunicorn WSGI server in a Linux environment
 1. Clone this repository
